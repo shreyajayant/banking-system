@@ -1,0 +1,164 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.intro{
+	background: #D6D2C4;
+	margin-top: 10px;
+	height: 320px;
+	width: 100%;
+}
+h1{
+	color: #334257;
+	font-weight: bold;
+	transition: 0.5s;
+}
+h3{
+	
+	color:#334257;
+}
+.img_1{
+	height:200px;
+	width:250px;
+	/* position: relative;
+	padding-top: 15px;
+	padding-left: 800px; */
+}
+table, td {
+	
+	padding: 35px;
+  }
+table{
+	margin-left: 20px;
+	margin-right: 20px;
+    margin-bottom: 20px;
+  }
+.img_2{
+	height:250px;
+	width:300px;
+	position: relative;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+  }
+.heading{
+	border: solid 1 px;
+	height: 300px;
+	width:450px;
+	text-align: center;
+}
+  /* Clear floats after image containers */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#0c0c0c; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+button:hover,h1:hover{
+	transform: scale(1.1);
+}
+button:hover{
+	background-color:#4C4B4B;
+}
+footer{
+	color:#586776;
+	background-color:#EAF0F1;
+	letter-spacing: 0.5px;
+}
+footer p{
+	margin: 0;
+	font-size: 15px;
+}
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 30px;
+	}
+	.act{
+		padding-bottom: 100px;
+	}
+}
+.icon{
+	height:90px;
+	width:90px;
+	padding: 16px;
+}
+.background{
+	background-color: #334257;
+	height: 400px;
+	padding:50px;
+}
+.screen{
+	padding: 40px 60px;
+	border: solid 1px white;
+	border-radius: 15px;
+	height: 300px;
+	width: 600px;
+	margin: auto;
+}
+.img{
+	float: left;
+	height: 170px;
+	width: 170px;
+	
+}
+.app-form-group{
+	position: relative;
+	padding-left: 240px;
+	color: white;
+	
+}
+.head{
+	font-family: serif;
+}
+.container_transfer{
+	background-color: #B2B1B9;
+	padding-bottom: 15px;
+}
+.transf{
+    padding-top: 7%;
+	background-color: #FFF1F1;
+}
+.transhist{
+	padding-top: 7%;
+	background-color: #FFF1F1;
+}
+.container_transhistory{
+	background-color: #B2B1B9;
+	padding-bottom: 15px;
+}
+.tranfericon{
+	position: relative;
+	padding-left: 85%;
+
+}
+.historyicon{
+		position: relative;
+		padding-left: 87%;
+		padding-top: 140px;
+
+}
+.tablebtn{
+	position: relative;
+	padding: 15px 70px;
+	margin-left: 40%;
+	margin-top: 30px;
+}
